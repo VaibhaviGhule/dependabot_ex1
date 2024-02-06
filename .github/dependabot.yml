@@ -11,4 +11,4 @@ updates:
       interval: "daily"
     allow:
       - dependency-name: "org.springframework:spring-core"
-        range: ["4.1.0, 6.1.3"]
+        range: [">=2.6.8", "<3.2.1"]

@@ -9,6 +9,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    allow:
+    versions:
       - dependency-name: "org.springframework:spring-core"
         range: [">=2.6.8", "<3.2.1"]

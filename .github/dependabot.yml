@@ -10,6 +10,5 @@ updates:
     schedule:
       interval: "daily"     
     allow:
-      # Allow updates for Lodash
       - dependency-name: "org.springframework:spring-core"
-        #dependency-type: "indirect"
+        dependency-type: "direct"
